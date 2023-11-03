@@ -605,7 +605,20 @@ function homepage() {
         alt="Purple lens flare"
         src="/img/purple-lens-flare-png-1.png"
         />
-         <img src='/img/purple-lens-flare-png-4.png' className='top-[300px] w-[500px] h-[700px] absolute bg-blend-hard-light right-[-10px] ' width="500" height="500" />
+        <img src='/img/purple-lens-flare-png-4.png' className='top-[300px] w-[500px] h-[700px] absolute bg-blend-hard-light right-[-10px] ' width="500" height="500" />
+        <div className=' scroll-m-[50px] overview'>
+          <div className=' text-center space-y-4 '>
+            <h2 className='text-[32px] font-bold '>Partners and Sponsers </h2>
+            <p>
+              Getlinked Hackathon 1.0 is honored to havve the following 
+              <br className='hidden lg:block' />
+              major companies as its partners and sponsers
+            </p>
+          </div>
+          <div>
+            
+          </div>
+        </div>
       </section>
     </main>
   )
