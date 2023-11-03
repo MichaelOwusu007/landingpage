@@ -25,3 +25,29 @@
     max-height:0;
     transition: max-height 0.8s ease-in-out;
 }*/
+
+@media (min-width:768px ) and (max-width:1025px) {
+
+    .awards .winner{
+        width: 220px;
+        height: 320px;
+    }
+    .awards .winner img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .awards .welldone{
+        width: 190px;
+        height: 290px;
+    }
+
+    .awards .welldone img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .award{
+        max-width: 700px;
+    }
+}

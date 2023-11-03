@@ -558,29 +558,54 @@ function homepage() {
           </div>
         </div>
       </section>
+      <img src='/img/line-1.png' className=' lg:hidden' />
       <section className="relative md:py-10 lg:py-20">
+        <img src='/img/premium-photo-1664443577580-dd2674e9d359-1.png' className='absolute hidden lg:flex h-full -z-10 top-0 brightness-[18%] w-full bg-blend-color-burn'/>
         <div className="py-20 my-6 scroll-m-[50px] overview ">
           <div className="flex flex-col justify-end items-end">
             <div>
               <h2 className="text-[32px] font-bold  ">Prizes and
                 <br />
-                <span className="text-pink">Rewards</span>
+                <span className="text-pink-500">Rewards</span>
               </h2>
               <p>Here is the breakdown of the time we anticipate using for the upcoming event.</p>
             </div>
           </div>
           <div className="flex flex-col lg:flex-row items-center false gap-14 lg:gap-20 justify-between ">
-            <div className="relative w-full lg:w-[40%] ">
-              {/*img rewards*/ }
+            <div className="relative w-full sm:w-[65%] lg:w-[40%] ">
+              <img src='/img/9486889-1.png' className='w-full' />
+              <img src='/img/star-6.png' className=' absolute w-[20px] -bottom-[50px] left-[30%] '/>
             </div>
-            <div className="relative w-full lg:w-[50%] ">
-                {/*img rewards*/ }
+            <div className=" awards flex justify-center items center w-full lg:w-[50%] ">
+              <div className=' award flex mt-4 lg:mt-10 space-x-2 max-w-[550px] '>
+                <div className='welldone rounded bg-[rgba(212,52,254,0.12)] w-[130px] h-[230px] xl:w-[150px] xl:h-[250px] flex items-center flex-col space-y-3 border-[1px] border-[#D434FE]'>
+                  <img src='/img/bronze-medal-1.png' className='w-[120px] h-[120px] ' />
+                  <h3>2nd</h3>
+                </div>
+                    <div className='winner rounded bg-[rgba(212,52,254,0.12)] w-[155px] h-[260px]  xl:w-[180px] xl:h-[280px] flex items-center flex-col space-y-3 border-[1px] border-[#903AFF] '>
+                  <img src='/img/gold-medal-1.png' className='w-[160px] h-[160px] xl:w-[180px] xl:h-[180px]  ' />
+                  <h3 className='font-bold text-[25px] '>1st
+                    <span> runner</span>
+                  </h3>
+                  <h2>N400,000</h2>
+                </div>
+                   <div className=' welldone rounded bg-[rgba(212,52,254,0.12)] w-[130px] h-[230px] xl:w-[150px] xl:h-[250px] flex items-center flex-col space-y-3 border-[1px] border-[#D434FE]'>
+                  <img src='/img/bronze-medal-1.png' className='w-[120px] h-[120px] xl:w-[140px] xl:h-[140px] ' />
+                  <h3>3rd</h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        
+      <img src='/img/line-1.png' className=' lg:hidden' />
+      <section className=' relative py-20 overflow-x-clip'>
+         <img
+        className="absolute w-[1086px] h-[800px] -top-24 left-[-80px] bg-blend-hard-light z-[-1]"
+        alt="Purple lens flare"
+        src="/img/purple-lens-flare-png-1.png"
+        />
+         <img src='/img/purple-lens-flare-png-4.png' className='top-[300px] w-[500px] h-[700px] absolute bg-blend-hard-light right-[-10px] ' width="500" height="500" />
       </section>
     </main>
   )
