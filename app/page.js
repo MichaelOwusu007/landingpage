@@ -353,9 +353,15 @@ function homepage() {
                   </p>
                 </div>
                 <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
-                  <div className=''></div>
+                  <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
+                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center  '><span className='font-bold text-white text-[24px] '>1</span>
+                  </div>
+                </div>
+                <div className=' py-4 flex-1  '>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-start '>November 18,2023</h3>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>
