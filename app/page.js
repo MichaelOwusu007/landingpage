@@ -335,6 +335,29 @@ function homepage() {
       <img src='/img/line-1.png' />
       <section className='relative scroll-m-[150px] py-20  '>
         <div className='max-w-[1400px] mx-auto '>
+          <div className='text-center space-y-4 lg:space-y-6 '>
+            <h2 className=' text-[32px] font-bold '>Timeline</h2>
+            <p className=' px-6'>Here is the breakdown of the time we anticipate
+              <br className='hidden lg:block' />
+              using for the upcoming event.
+            </p>
+          </div>
+          <div className='py-2 lg:py-10 w-full mx-auto my-4 lg:my-6'>
+            <div className=' space-y-4 px-6 md:px-10 lgpx-4 '>
+              <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
+                <div className=' py-4 text-end flex-1'>
+                  <h3 className=' text-pink-600 font-bold text-[22px] '>Hackathon Announcement</h3>
+                  <p>The getlinked tech hackathon 1.0 is formally annouced
+                    <br className='hidden lg:block' />
+                    to the general public and teams begin to get ready to register
+                  </p>
+                </div>
+                <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
