@@ -345,7 +345,7 @@ function homepage() {
           <div className='py-2 lg:py-10 w-full mx-auto my-4 lg:my-6'>
             <div className=' space-y-4 px-6 md:px-10 lgpx-4 '>
               <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
-                <div className=' py-4 text-end flex-1'>
+                <div className=' py-4 text-end'>
                   <h3 className=' text-pink-600 font-bold text-[22px] '>Hackathon Announcement</h3>
                   <p>The getlinked tech hackathon 1.0 is formally annouced
                     <br className='hidden lg:block' />
@@ -354,17 +354,233 @@ function homepage() {
                 </div>
                 <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
                   <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
-                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center  '><span className='font-bold text-white text-[24px] '>1</span>
+                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>1</span>
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
                   <h3 className='text-pink-500 font-bold text-[22px] text-start '>November 18,2023</h3>
                 </div>
               </div>
-              
+              <div className='flex xl:hidden gap-2 md:gap-4'>
+                <div className='w-max lg:w-[100px] gap-2 lg:gap-4 flex flex-col justify-between items-center'>
+                  <div className=' min-h-[60px] flex-1 lg:min-h-[100px] bg-pink-500 w-[3px] '></div>
+                  <div className=' w-[30px] bg-pink-500 text-black rounded-full h-[30px] md:w-[40px] md:h-[40px] lg:h-[60px] lg:w-[60px] justify-center flex items-center '><span className='font-bold text-white  lg:text-[20px]'>1</span>
+                  </div>
+                </div>
+                <div className='flex flex-col justify-between py-1 md:py-2 flex-1'>
+                  <div>
+                    <h3 className='text-pink-500 font-bold text-[17px] lg:text-[22px]'>Hackathon Announcement</h3>
+                    <p className="text-[14px] ">
+                      The getlinked tech hackathon 1.0 is formalli announced
+                      <br className="hidden xl:block " />
+                      to the general public and teams begin to get ready to register
+                    </p>
+                  </div>
+                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 18,2023</h3>
+                </div>
+              </div>
+              <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
+                <div className=' py-4 text-end'>
+                  <h3 className=' text-pink-600 font-bold text-[22px] '>Hackathon Announcement</h3>
+                  <p>The getlinked tech hackathon 1.0 is formally annouced
+                    <br className='hidden lg:block' />
+                    to the general public and teams begin to get ready to register
+                  </p>
+                </div>
+                <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
+                  <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
+                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>1</span>
+                  </div>
+                </div>
+                <div className=' py-4 flex-1  '>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-start '>November 18,2023</h3>
+                </div>
+              </div>
+              <div className='flex xl:hidden gap-2 md:gap-4'>
+                <div className='w-max lg:w-[100px] gap-2 lg:gap-4 flex flex-col justify-between items-center'>
+                  <div className=' min-h-[60px] flex-1 lg:min-h-[100px] bg-pink-500 w-[3px] '></div>
+                  <div className=' w-[30px] bg-pink-500 text-black rounded-full h-[30px] md:w-[40px] md:h-[40px] lg:h-[60px] lg:w-[60px] justify-center flex items-center '><span className='font-bold text-white  lg:text-[20px]'>1</span>
+                  </div>
+                </div>
+                <div className='flex flex-col justify-between py-1 md:py-2 flex-1'>
+                  <div>
+                    <h3 className='text-pink-500 font-bold text-[17px] lg:text-[22px]'>Hackathon Announcement</h3>
+                    <p className="text-[14px] ">
+                      The getlinked tech hackathon 1.0 is formalli announced
+                      <br className="hidden xl:block " />
+                      to the general public and teams begin to get ready to register
+                    </p>
+                  </div>
+                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 18,2023</h3>
+                </div>
+              </div>
+              <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
+                <div className=' py-4 text-end'>
+                  <h3 className=' text-pink-600 font-bold text-[22px] '>Hackathon Announcement</h3>
+                  <p>The getlinked tech hackathon 1.0 is formally annouced
+                    <br className='hidden lg:block' />
+                    to the general public and teams begin to get ready to register
+                  </p>
+                </div>
+                <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
+                  <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
+                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>1</span>
+                  </div>
+                </div>
+                <div className=' py-4 flex-1  '>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-start '>November 18,2023</h3>
+                </div>
+              </div>
+              <div className='flex xl:hidden gap-2 md:gap-4'>
+                <div className='w-max lg:w-[100px] gap-2 lg:gap-4 flex flex-col justify-between items-center'>
+                  <div className=' min-h-[60px] flex-1 lg:min-h-[100px] bg-pink-500 w-[3px] '></div>
+                  <div className=' w-[30px] bg-pink-500 text-black rounded-full h-[30px] md:w-[40px] md:h-[40px] lg:h-[60px] lg:w-[60px] justify-center flex items-center '><span className='font-bold text-white  lg:text-[20px]'>1</span>
+                  </div>
+                </div>
+                <div className='flex flex-col justify-between py-1 md:py-2 flex-1'>
+                  <div>
+                    <h3 className='text-pink-500 font-bold text-[17px] lg:text-[22px]'>Hackathon Announcement</h3>
+                    <p className="text-[14px] ">
+                      The getlinked tech hackathon 1.0 is formalli announced
+                      <br className="hidden xl:block " />
+                      to the general public and teams begin to get ready to register
+                    </p>
+                  </div>
+                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 18,2023</h3>
+                </div>
+              </div>
+              <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
+                <div className=' py-4 text-end'>
+                  <h3 className=' text-pink-600 font-bold text-[22px] '>Hackathon Announcement</h3>
+                  <p>The getlinked tech hackathon 1.0 is formally annouced
+                    <br className='hidden lg:block' />
+                    to the general public and teams begin to get ready to register
+                  </p>
+                </div>
+                <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
+                  <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
+                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>1</span>
+                  </div>
+                </div>
+                <div className=' py-4 flex-1  '>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-start '>November 18,2023</h3>
+                </div>
+              </div>
+              <div className='flex xl:hidden gap-2 md:gap-4'>
+                <div className='w-max lg:w-[100px] gap-2 lg:gap-4 flex flex-col justify-between items-center'>
+                  <div className=' min-h-[60px] flex-1 lg:min-h-[100px] bg-pink-500 w-[3px] '></div>
+                  <div className=' w-[30px] bg-pink-500 text-black rounded-full h-[30px] md:w-[40px] md:h-[40px] lg:h-[60px] lg:w-[60px] justify-center flex items-center '><span className='font-bold text-white  lg:text-[20px]'>1</span>
+                  </div>
+                </div>
+                <div className='flex flex-col justify-between py-1 md:py-2 flex-1'>
+                  <div>
+                    <h3 className='text-pink-500 font-bold text-[17px] lg:text-[22px]'>Hackathon Announcement</h3>
+                    <p className="text-[14px] ">
+                      The getlinked tech hackathon 1.0 is formalli announced
+                      <br className="hidden xl:block " />
+                      to the general public and teams begin to get ready to register
+                    </p>
+                  </div>
+                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 18,2023</h3>
+                </div>
+              </div>
+              <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
+                <div className=' py-4 text-end'>
+                  <h3 className=' text-pink-600 font-bold text-[22px] '>Hackathon Announcement</h3>
+                  <p>The getlinked tech hackathon 1.0 is formally annouced
+                    <br className='hidden lg:block' />
+                    to the general public and teams begin to get ready to register
+                  </p>
+                </div>
+                <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
+                  <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
+                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>1</span>
+                  </div>
+                </div>
+                <div className=' py-4 flex-1  '>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-start '>November 18,2023</h3>
+                </div>
+              </div>
+              <div className='flex xl:hidden gap-2 md:gap-4'>
+                <div className='w-max lg:w-[100px] gap-2 lg:gap-4 flex flex-col justify-between items-center'>
+                  <div className=' min-h-[60px] flex-1 lg:min-h-[100px] bg-pink-500 w-[3px] '></div>
+                  <div className=' w-[30px] bg-pink-500 text-black rounded-full h-[30px] md:w-[40px] md:h-[40px] lg:h-[60px] lg:w-[60px] justify-center flex items-center '><span className='font-bold text-white  lg:text-[20px]'>1</span>
+                  </div>
+                </div>
+                <div className='flex flex-col justify-between py-1 md:py-2 flex-1'>
+                  <div>
+                    <h3 className='text-pink-500 font-bold text-[17px] lg:text-[22px]'>Hackathon Announcement</h3>
+                    <p className="text-[14px] ">
+                      The getlinked tech hackathon 1.0 is formalli announced
+                      <br className="hidden xl:block " />
+                      to the general public and teams begin to get ready to register
+                    </p>
+                  </div>
+                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 18,2023</h3>
+                </div>
+              </div>
+              <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
+                <div className=' py-4 text-end'>
+                  <h3 className=' text-pink-600 font-bold text-[22px] '>Hackathon Announcement</h3>
+                  <p>The getlinked tech hackathon 1.0 is formally annouced
+                    <br className='hidden lg:block' />
+                    to the general public and teams begin to get ready to register
+                  </p>
+                </div>
+                <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
+                  <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
+                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>1</span>
+                  </div>
+                </div>
+                <div className=' py-4 flex-1  '>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-start '>November 18,2023</h3>
+                </div>
+              </div>
+              <div className='flex xl:hidden gap-2 md:gap-4'>
+                <div className='w-max lg:w-[100px] gap-2 lg:gap-4 flex flex-col justify-between items-center'>
+                  <div className=' min-h-[60px] flex-1 lg:min-h-[100px] bg-pink-500 w-[3px] '></div>
+                  <div className=' w-[30px] bg-pink-500 text-black rounded-full h-[30px] md:w-[40px] md:h-[40px] lg:h-[60px] lg:w-[60px] justify-center flex items-center '><span className='font-bold text-white  lg:text-[20px]'>1</span>
+                  </div>
+                </div>
+                <div className='flex flex-col justify-between py-1 md:py-2 flex-1'>
+                  <div>
+                    <h3 className='text-pink-500 font-bold text-[17px] lg:text-[22px]'>Hackathon Announcement</h3>
+                    <p className="text-[14px] ">
+                      The getlinked tech hackathon 1.0 is formalli announced
+                      <br className="hidden xl:block " />
+                      to the general public and teams begin to get ready to register
+                    </p>
+                  </div>
+                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 18,2023</h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+      <section className="relative md:py-10 lg:py-20">
+        <div className="py-20 my-6 scroll-m-[50px] overview ">
+          <div className="flex flex-col justify-end items-end">
+            <div>
+              <h2 className="text-[32px] font-bold  ">Prizes and
+                <br />
+                <span className="text-pink">Rewards</span>
+              </h2>
+              <p>Here is the breakdown of the time we anticipate using for the upcoming event.</p>
+            </div>
+          </div>
+          <div className="flex flex-col lg:flex-row items-center false gap-14 lg:gap-20 justify-between ">
+            <div className="relative w-full lg:w-[40%] ">
+              {/*img rewards*/ }
+            </div>
+            <div className="relative w-full lg:w-[50%] ">
+                {/*img rewards*/ }
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        
       </section>
     </main>
   )
