@@ -615,8 +615,8 @@ function homepage() {
               major companies as its partners and sponsers
             </p>
           </div>
-          <div>
-            
+          <div className=' flex relative items-center justify-center my-20'>
+            <img src='/img/Partner and Sponsors.png' className='z-[20] w-full object-contain '/>
           </div>
         </div>
       </section>
