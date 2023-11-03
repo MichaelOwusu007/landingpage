@@ -353,7 +353,7 @@ function homepage() {
                   </p>
                 </div>
                 <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
-                  
+                  <div className=''></div>
                 </div>
               </div>
             </div>
