@@ -616,7 +616,7 @@ function homepage() {
             </p>
           </div>
           <div className=' flex relative items-center justify-center my-20'>
-            <img src='/img/Partner and Sponsors.png' className=' partners z-[20] w-full object-contain '/>
+            <img src='/img/Partner and Sponsors.png' className=' partners z-[20] w-full object-contain lg:w-[80%] '/>
           </div>
         </div>
       </section>
@@ -627,14 +627,43 @@ function homepage() {
               <div className='space-y-6 pb-6'>
                 <h2 className='text-[32px] font-bold '>Privacy Policy and
                    <br />
-                <span className=''>Terms</span>
+                <span className=' text-pink-500'>Terms</span>
                 </h2>
                 <span>Last updated on September 12,2023</span>
                 <p>
                   Below are our privacy & policy, which outline a lot of goodies. its our aim to always take of our participant
                 </p>
               </div>
-              
+              <div className=' bg-zinc-300 bg-opacity-5 flex flex-col space-y-4 items-center rounded-[5px] py-10 px-4 lg:p-10 '>
+                <p className=' pb-6'>
+                  At getlinked tech hackathon 1.0, we value your privacy and are commited to protecting your personal information. this privacy Policy outlines how we collect,use,disclose, and safeguared your data when you participate in our tech hackathon event. By participating in our event, you consent to the practices described in this policy
+                </p>
+                <h3 className=' text-pink-500   font-bold w-full'>Licensing Policy</h3>
+                <p className='font-bold w-full'>
+                  Here are terms of our standard License:
+                </p>
+                <ul className=' space-y-6'>
+                  <li className='flex gap-3 items-start'>
+                    {/*svg */}
+                    <p className=' break-words'>
+                      The Standard License grants you a non-exclusive rights to navigate and register for our event
+                    </p>
+                  </li>
+                    <li className='flex gap-3 items-start'>
+                    {/*svg */}
+                    <p className=' break-words'>
+                      You are licensed to use the item available at any free source sites, for your project development
+                    </p>
+                  </li>
+                </ul>
+                <div>
+                  <a href="" className=' justify-center items-center flex  xl:justify-start'><button className='bg-primary-gradient w-[200px] justify-center items-center  rounded-md text-center flex active:scale-95 h-[50px]  mt-12 '><div className='px-8 w-[98%] h-[95%] text-xl flex items-center justify-center transition-all hover:bg-[#150e28] rounded-md'>Read More</div></button></a>
+                </div>
+              </div>
+            </div>
+            <div className=' relative w-full px-6 pt-10 lg:w-[40%] sm:w-[65%] '>
+              <img className=' w-[90%] md:w-full absolute right-1 -top-10 lg:-top-20 -z-10 ' src='/img/Vector.png'/>
+              <img className=' w-full mt-24' src='/img/08-1.png'/>
             </div>
           </div>
         </div>
