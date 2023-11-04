@@ -333,7 +333,7 @@ function homepage() {
         </div>
       </section>
       <img src='/img/line-1.png' />
-      <section className='relative scroll-m-[150px] py-20  '>
+      <section className='relative scroll-m-[150px] py-20  ' id='Timeline#'>
         <div className='max-w-[1400px] mx-auto '>
           <div className='text-center space-y-4 lg:space-y-6 '>
             <h2 className=' text-[32px] font-bold '>Timeline</h2>
