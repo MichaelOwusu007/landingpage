@@ -616,7 +616,26 @@ function homepage() {
             </p>
           </div>
           <div className=' flex relative items-center justify-center my-20'>
-            <img src='/img/Partner and Sponsors.png' className='z-[20] w-full object-contain '/>
+            <img src='/img/Partner and Sponsors.png' className=' partners z-[20] w-full object-contain '/>
+          </div>
+        </div>
+      </section>
+      <section className='relative py-10 lg:py-20'>
+        <div className='py-10 lg:py-20 scroll-m-[50px] overview '>
+          <div className=' flex flex-col lg:flex-row items-center false gap-14 lg:gap-20 justify-between'>
+            <div className='relative w-full lg:w-[45%] '>
+              <div className='space-y-6 pb-6'>
+                <h2 className='text-[32px] font-bold '>Privacy Policy and
+                   <br />
+                <span className=''>Terms</span>
+                </h2>
+                <span>Last updated on September 12,2023</span>
+                <p>
+                  Below are our privacy & policy, which outline a lot of goodies. its our aim to always take of our participant
+                </p>
+              </div>
+              
+            </div>
           </div>
         </div>
       </section>
