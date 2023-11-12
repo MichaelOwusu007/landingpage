@@ -205,7 +205,7 @@ function homepage() {
       <section className='relative py-20 scroll-m-[150px] '>
         <div className=' lg:py-20 my-6 scroll-m-[50px] overview '>
           <div className=' flex flex-col lg:flex-row items-center justify-between gap-14 lg:gap-20 '>
-            <div className=' relative lg:w-[40%] space-y-10 lg:text-start text-center '>
+            <div className=' relative lg:w-[40%] space-y-10 lg:text-start text-center max-w-[750px] '>
               <img src='/img/sata-gra.png' className=' absolute -top-14 left-14 w-[30px] ' />
               <h2 className=' font-bold text-[40px] '>
                 Frequently Asked
@@ -233,7 +233,7 @@ function homepage() {
                     </span>
                   </p>
                   {isAnswerVisible1 && (
-                    <p className='overflow-hidden text-[16px] text-start md:text-[16px] text-gray-300 pb-2 answer'>
+                    <p className='overflow-hidden text-[16px]  md:text-[16px] text-gray-300 pb-2 answer text-start'>
                       Yes, You can work on a project that you started before the hackathon. However, please make sure that
                       your project rules comply with the hackathon rules and guidelines.
                     </p>
@@ -317,7 +317,7 @@ function homepage() {
                     </span>
                   </p>
                   {isAnswerVisible5 && (
-                    <p className='overflow-hidden text-[16px] text-start md:text-[16px] text-gray-300 pb-2 answer'>
+                    <p className='overflow-hidden text-[16px] text-start md:text-[16px]  text-gray-300 pb-2 answer'>
                       Yes, You can work on a project that you started before the hackathon. However, please make sure that
                       your project rules comply with the hackathon rules and guidelines.
                     </p>
@@ -422,7 +422,7 @@ function homepage() {
                     to the general public and teams begin to get ready to register
                   </p>
                 </div>
-                <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
+                <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center '>
                   <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
                   <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>1</span>
                   </div>
