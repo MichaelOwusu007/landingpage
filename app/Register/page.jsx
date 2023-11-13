@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Register.css";
+import Model from "@/components/model"
 
 function registerpage() {
   return (
@@ -88,6 +89,7 @@ function registerpage() {
                           </div>
                       </section>
                   </div>
+                  {/*<Model/>*/}
               </div>
           </section>
       </main>

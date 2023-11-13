@@ -1,0 +1,42 @@
+.model_layout{
+    background: rgba(21, 14, 40, 0.93);
+    opacity: 1;
+}
+
+
+html .model_layout{
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+}
+
+html .model{
+    border-radius:0.75rem;
+    padding: 1.5rem;
+    --tw-bg-opacity:1;
+    background-color: rgba(212, 212, 216/var(--tw-bg-opacity));
+    border:2px solid rgba(144,58,255);
+    }
+
+
+@media (min-width:768px) {
+    html .model{
+        width: 500px;
+        padding: 2.5rem;
+        
+    }
+    
+}
+
+@media (min-width:1024px) {
+    html .model {
+        width: 700px;
+        
+    }
+}
