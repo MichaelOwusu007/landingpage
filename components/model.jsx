@@ -8,7 +8,7 @@ function layout() {
               <div className='mx-4'>
                   <div className='model '>
                       <div>
-                          <div className='relative min-h-[250px] md:min-h-[300px] lg:min-h-[450px] '>
+                          <div className='relative min-h-[250px] md:min-h-[300px] lg:min-h-[420px] '>
                               <img className=' w-[350px] absolute -right-2 md:w-[500px] mx-auto lg:w-max scale-[0.6] lg:scale-[0.8] ' src="/img/hurray.webp" alt="hurray" />
                               <img className=' absolute top-4 w-[250px] md:top-0 -left-8 md:w-[400px] mx-auto lg:w-max scale-[0.6] lg:scale-[0.8]  ' src="/img/tick.webp" alt="tick" />
                           </div>
@@ -21,7 +21,7 @@ function layout() {
                                       check your email box for next step
                                   </p>
                               </div>
-                              <button className='w-full text-xl'></button>
+                             <a href="/Register" className=' justify-center flex '><button className='bg-primary-gradient w-[200px] justify-center items-center  rounded-md  flex active:scale-95 h-[50px]  mt-4 '><div className='px-8 w-[98%] h-[95%] text-xl flex items-center justify-center transition-all hover:bg-[#150e28] rounded-md'>Back</div></button></a>
                           </div>
                       </div>
                   </div>

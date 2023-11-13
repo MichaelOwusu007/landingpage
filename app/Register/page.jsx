@@ -89,7 +89,7 @@ function registerpage() {
                           </div>
                       </section>
                   </div>
-                  {/*<Model/>*/}
+                  {/* <Model/> view this as a congratulation message to user after all informations have been submitted successfully upon clicking register. it is actual a component in my project called */}
               </div>
           </section>
       </main>

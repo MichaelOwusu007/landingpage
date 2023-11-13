@@ -202,7 +202,7 @@ function homepage() {
         </div>
       </section>
       <img src='/img/line-1.png' />
-      <section className='relative py-20 scroll-m-[150px] '>
+      <section className='relative py-20 scroll-m-[150px] ' id='FAQ' >
         <div className=' lg:py-20 my-6 scroll-m-[50px] overview '>
           <div className=' flex flex-col lg:flex-row items-center justify-between gap-14 lg:gap-20 '>
             <div className=' relative lg:w-[40%] space-y-10 lg:text-start text-center max-w-[750px] '>
@@ -333,7 +333,7 @@ function homepage() {
         </div>
       </section>
       <img src='/img/line-1.png' />
-      <section className='relative scroll-m-[150px] py-20  ' id='Timeline#'>
+      <section className='relative scroll-m-[150px] py-20  ' id='Timeline'>
         <div className='max-w-[1400px] mx-auto '>
           <div className='text-center space-y-4 lg:space-y-6 '>
             <h2 className=' text-[32px] font-bold '>Timeline</h2>
