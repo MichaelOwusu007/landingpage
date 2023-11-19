@@ -40,28 +40,28 @@ function homepage() {
     <main className='w-full flex-1 mx-auto p-2 -z-10 overflow-hidden'>
       <section className='relative h-max xl:min-h-screen 2xl:min-h-[90vh] flex flex-col xl:flex-row space-y-4 lg:items-center z-0'>
         <section className=' flex flex-col  items-center justify-center w-full mx-auto h-full z-0  xl:items-start'>
-          <span className='relative'>
-             <p className='font-bold italic tracking-wide text-[22px] md:text-2xl lg:text-3xl mt-20'>Igniting a Revolution in HR Inovation</p>
+          <span className='relative xl:hidden '>
+             <p className='font-bold  italic tracking-wide text-[22px] md:text-2xl  xl:text-3xl mt-20 '>Igniting a Revolution in HR Inovation</p>
             <img src='/img/vector-4.svg' className='absolute right-[10px]  '/>
           </span>
           <div>
           <img
-        className="relative w-[1086px] h-[836px] -top-24 left-[-80px] bg-blend-hard-light z-[-1]"
+        className="relative w-[1086px] h-[836px] -top-24 left-[-90px] bg-blend-hard-light z-[-1]"
         alt="Purple lens flare"
         src="/img/purple-lens-flare-png-1.png"
          />
           </div>
-          <h1 className='absolute top-[180px] font-extrabold text-[48px] xl:text-[70px]  z-0 xl:pl-16 '>
+          <h1 className='absolute top-[180px] font-extrabold text-[48px] xl:text-[65px]  z-0 xl:pl-14  '>
             
-            <span className='relative flex items-center justify-center'>getlinkedTech
+            <span className='relative flex items-center  '>getlinkedTech
              <img className="w-[18px] h-[26px] top-0 right-[70px] object-cover absolute" alt="Creative" src="/img/creative-1.png" />
             </span>
             <span className=' mx-auto flex items-center w-max'>Hackathon <span className='text-pink-600'>1.0</span>
               <span>
-                <img src='/img/chain-9365116-7621444.png' width="500"  height="500" className=' w-[40px] h-[40px]'/>
+                <img src='/img/chain-9365116-7621444.png' width="500"  height="500" className=' w-[35px] h-[35px]'/>
               </span>
                <span>
-                <img src='/img/1f-4a-5.png' width="500"  height="500" className=' w-[40px] h-[40px]'/>
+                <img src='/img/1f-4a-5.png' width="500"  height="500" className=' w-[35px] h-[35px]'/>
               </span>
             </span>
           </h1>
@@ -91,12 +91,13 @@ function homepage() {
             <img src='/img/purple-lens-flare-png-10.png' className='top-[-170px] w-[600px] h-[500px] absolute bg-blend-hard-light ' width="500" height="500" />
           </div>
           <div className='relative flex justify-center '>
-            <img src='/img/man-wearing-smart-glasses-touching-virtual-screen-1.png' className='relative top-[-200px] xl:w-[1500px] xl:h-[680px] self-center  xl:top-[-70px] ' />
+            <img src='/img/man-wearing-smart-glasses-touching-virtual-screen-1.png' className='relative top-[-135px] xl:w-[1500px] xl:h-[680px] self-center  xl:top-[-70px] ' />
             <img src='/img/image-1.png' className='absolute top-[-250px] md:top-[-180px] xl:top-[-130px] sm:w-[667px] sm:h-[620px] flex items-center justify-center ' width="500" height="500"/>
           </div>
         </section>
       </section>
-      <img src='/img/line-2.svg' className=' mt-[-200px] ' />
+      
+      <img src='/img/line-2.svg' className=' mt-[-135px] ' />
       <section className=' scroll-m-[150px] py-16'>
         <div className='scroll-m-[50px] overview'>
           <div className=' flex flex-col lg:flex-row items-center justify-between lg:gap-20 gap-14 false '>
@@ -120,16 +121,16 @@ function homepage() {
       <img src='/img/line-1.png'/>
       <section className=' scroll-m-[150px] py-16 relative'>
         <img
-        className="absolute w-[1086px] h-[800px] -top-24 left-[-80px] bg-blend-hard-light z-[-1]"
+        className="absolute w-[800px] h-[800px] -top-24 left-[-80px] bg-blend-hard-light z-[-1]"
         alt="Purple lens flare"
         src="/img/purple-lens-flare-png-1.png"
         />
-         <img src='/img/purple-lens-flare-png-4.png' className='top-[300px] w-[500px] h-[700px] absolute bg-blend-hard-light right-[-10px] ' width="500" height="500" />
+         <img src='/img/purple-lens-flare-png-10.png' className='top-[300px] w-[700px] h-[700px] absolute bg-blend-hard-light right-[-15px] ' width="500" height="500" />
         <div className='scroll-m-[50px] overview'>
           <div className=' flex flex-col lg:flex-row items-center justify-between lg:gap-20 gap-14 false '>
             <div className=' w-full lg:w-[50%] relative lg:text-start text-center '>
               <h2 className=' font-bold text-[32px] sm:text-[38px]  '>
-                Rules an
+                Rules and
                 <br />
                 <span className=' text-pink-600'>Guidelines</span>
               </h2>
@@ -599,13 +600,13 @@ function homepage() {
         </div>
       </section>
       <img src='/img/line-1.png' className=' lg:hidden' />
-      <section className=' relative py-20 overflow-x-clip'>
+      <section className=' relative py-20'>
          <img
-        className="absolute w-[1086px] h-[800px] -top-24 left-[-80px] bg-blend-hard-light z-[-1]"
+        className="absolute w-[700px] h-[800px] -top-24 -left-[10px] bg-blend-hard-light z-[-1]"
         alt="Purple lens flare"
         src="/img/purple-lens-flare-png-1.png"
         />
-        <img src='/img/purple-lens-flare-png-4.png' className='top-[300px] w-[500px] h-[700px] absolute bg-blend-hard-light right-[-10px] ' width="500" height="500" />
+        <img src='/img/purple-lens-flare-png-10.png' className='top-[300px] w-[700px] h-[700px] absolute bg-blend-hard-light left-[900px] ' width="500" height="500" />
         <div className=' scroll-m-[50px] overview'>
           <div className=' text-center space-y-4 '>
             <h2 className='text-[32px] font-bold '>Partners and Sponsers </h2>

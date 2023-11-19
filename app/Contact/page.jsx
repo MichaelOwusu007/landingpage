@@ -8,17 +8,17 @@ function contactpage() {
       <section className=' relative overflow-clip lg:min-h-[100vh] '>
         
         <img
-        className="absolute hidden lg:block w-[1086px] h-[800px] -top-10 left-[-80px] bg-blend-hard-light z-[-1]"
+        className="absolute hidden lg:block w-[800px] h-[800px] -top-10 left-[-80px] bg-blend-hard-light z-[-1]"
         alt="Purple lens flare"
         src="/img/purple-lens-flare-png-1.png"
               />
-              <img src="/img/puple-contact.png" alt="" className='absolute hidden lg:block -bottom-[10px] w-[800px] bg-blend-hard-light right-0' />
+              <img src="/img/purple-lens-flare-png-10.png" alt="" className='absolute hidden lg:block -bottom-[100px] w-[800px] bg-blend-hard-light right-0' />
               <div className=' mx-auto w-full px-4 '>
                   <h2 className=' font-semibold py-2 lg:hidden text-start block mt-16 text-[22px] lg:text-[25px] '>Contact</h2>
               </div>
-        <div className=' mx-auto max-w-[1500px] relative justify-between items-center px-4 flex-col lg:flex-row flex '>
+        <div className=' mx-auto max-w-[1500px] relative justify-between items-center px-6 flex-col lg:flex-row flex '>
           {/* change */}
-          <section className=' lg:w-[45%] relative hidden lg:block space-y-6 font-medium text-xl '>
+          <section className=' lg:w-[45%] relative hidden lg:block space-y-8 font-medium text-xl '>
             <img src="/img/sata-gra.png" alt="" className='absolute w-[30px] lg:w-[30px] top-[-50px] left-[80%] lg:top-[150px] ' />
             <h2 className=' text-[32px] text-pink font-semibold  '>Get in touch</h2>
             <p>
@@ -56,7 +56,7 @@ function contactpage() {
                                   
                                   <div className='font-bold text-[22px] text-pink-500 lg:mt-4 '>
                                       <p>Questions or need assistant?
-                      <br />
+                            <br />
                       Let us know about it
                                       </p>
                                   </div>
