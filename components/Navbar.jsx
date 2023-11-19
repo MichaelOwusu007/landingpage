@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <div>
-    <div className='navbar-container w-full sm:fixed top-0 z-[90] px-4 h-20 mx-auto justify-between items-center flex sm:px-5 md:px-10 lg:px-10 xl:px-20 bg-[#1a1134] bg-opacity-[0.4]  '>
+    <div className=' relative navbar-container w-full sm:fixed top-0 z-[90] px-4 h-20 mx-auto justify-between items-center flex sm:px-5 md:px-10 lg:px-10 xl:px-20 bg-[#1a1134] bg-opacity-[0.4]  '>
         <div className='logo'>
           <a href='/'>
         <h1 className='nav-logo font-bold text-white text-[24px] lg:text-[36px]'>get<span className=' text-pink-400'>linked</span></h1></a>
@@ -23,13 +23,13 @@ function Navbar() {
 
       {/* Toggle button for mobile screens */}
       <div className='toggle-button lg:hidden text-white cursor-pointer' onClick={toggleNavLinks}>
-        {showNavLinks ? <IoMdClose className='icon absolute right-[260px] top-5 h-7 w-7 border rounded border-pink-500' /> : <FaBars className='icon relative h-7 w-7' />}
+        {showNavLinks ? <IoMdClose className='icon absolute right-[260px] top-5 h-7 w-7 border rounded bg-black border-pink-500' /> : <FaBars className='icon relative h-7 w-7' />}
       </div>
 
       {/* Navlinks container */}
       {showNavLinks && (
-        <div className=' lg:hidden nav-links-mobile transition-all duration-300 ease-in z-10'>
-          <nav className=' mobile-nav flex flex-col space-y-6 absolute top-4 right-0 py-6 pl-6 pr-4 font-sans font-bold text-lg bg-[#150e28]  text-white mt-10 w-[300px]'>
+        <div className=' lg:hidden nav-links-mobile transition-all duration-1000 ease-in-out z-10'>
+          <nav className=' mobile-nav flex flex-col space-y-6 absolute top-4 right-0 py-6 pl-6 pr-4 font-sans font-bold text-lg bg-[#150e28]  text-white mt-10 w-[300px] '>
             <Link href="/#Timeline">Timeline</Link>
             <hr />
             <a href="#Overview">Overview</a>

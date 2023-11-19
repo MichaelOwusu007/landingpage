@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 
 
 export const metadata = {
-  title: 'JOBFINDER',
+  title: 'getlinked',
   description: 'Designrd by Mickerl_Codes',
 }
 

@@ -1,5 +1,9 @@
 import React from 'react';
 import "./Contact.css";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function contactpage() {
   return (
@@ -40,11 +44,11 @@ function contactpage() {
             </p>
             <div className='flex flex-col gap-4'>
               <h3 className=' text-pink-500 text-[20px] font-bold '>Share on</h3>
-              <ul className='flex gap-3'>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+             <ul className='flex gap-3'>
+                <li><a href='/'><i className='text-xl'><FaXTwitter /></i></a></li>
+                <li><a href='/'><i className='font-bold text-xl'><FaFacebookF /></i></a></li>
+                <li><a href='/'><i className='text-xl font-bold'><FaInstagram /></i></a></li>
+                 <li><a href='/'><i className='text-xl font-bold'><FaLinkedinIn/></i></a></li>
               </ul>
             </div>
                     </section>

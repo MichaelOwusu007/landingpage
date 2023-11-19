@@ -8,12 +8,3 @@
     background: linear-gradient(180deg,rgb(144, 58, 255) 0%,rgb(212, 52, 254) 56.42%,rgb(255, 37.9, 184.51) 99.99%,rgb(254, 52, 185.32) 100%);
 }
 
-@media (max-width:475px){
-    .mobile-nav{
-        width: 200px;
-    }
-    .bg-primary-gradient{
-        width: 100px;
-        height: 40px;
-    }
-}
