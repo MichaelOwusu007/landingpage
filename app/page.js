@@ -377,7 +377,7 @@ function homepage() {
             <div className=' space-y-4 px-6 md:px-10 lgpx-4 '>
               <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
                 <div className=' py-4 text-end'>
-                  <h3 className=' text-pink-600 font-bold text-[22px] '>Hackathon Announcement</h3>
+                  <h3 className=' text-pink-600 font-bold text-[22px] '>Hackathon Official Announcement</h3>
                   <p>The getlinked tech hackathon 1.0 is formally annouced
                     <br className='hidden lg:block' />
                     to the general public and teams begin to get ready to register
