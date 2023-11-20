@@ -123,7 +123,7 @@ function registerpage() {
                                           <input required type="checkbox" name='agree' className=' bg-transparent' />
                                           <label htmlFor="agree" className='text-red-500'> I agreed with the event terms and conditions privacy policy</label>
                                       </div>
-                                        <a href="" className=' justify-center flex '><button className='bg-primary-gradient w-[250px] justify-center items-center  rounded-md  flex active:scale-95 h-[50px]  mt-4 '><div className='px-8 w-[98%] h-[95%] text-xl flex items-center justify-center transition-all hover:bg-[#150e28] rounded-md'>Register Now</div></button></a>
+                                        <a href="#" className=' justify-center flex '><button className='bg-primary-gradient w-[250px] justify-center items-center  rounded-md  flex active:scale-95 h-[50px]  mt-4 '><div className='px-8 w-[98%] h-[95%] text-xl flex items-center justify-center transition-all hover:bg-[#150e28] rounded-md'>Register Now</div></button></a>
                                   </fieldset>
                               </form>
                           </div>

@@ -101,7 +101,7 @@ function homepage() {
           </h1>
           <p className=' text-[22px] font-semibold top-[400px] mt-[px] absolute text-center xl:pl-16 xl:text-start xl:w-[600px] lg:text-[28x] '>Participate in getlinked tech Hackathon 2023 stand a chance to win  big prize</p>
           <div className=' absolute mt-[300px] xl:mt-[300px] flex items-center flex-col justify-center xl:items-start xl:pl-16'>
-          <a href=""><button className='bg-primary-gradient w-[200px] items-center rounded-md justify-center active:scale-95 h-[50px] flex'><div className='px-8 w-[98%] h-[95%] text-xl flex items-center justify-center transition-all hover:bg-[#150e28] rounded-md mx-auto'>Register</div></button></a>
+          <a href="/Register"><button className='bg-primary-gradient w-[200px] items-center rounded-md justify-center active:scale-95 h-[50px] flex'><div className='px-8 w-[98%] h-[95%] text-xl flex items-center justify-center transition-all hover:bg-[#150e28] rounded-md mx-auto'>Register</div></button></a>
           <div className=' pt-10 flex gap-6 justify-center items-center  text-[40px] lg:text-[60px] text-center time-running '>
             <span>
               <span>{time.hours}</span>
@@ -424,7 +424,7 @@ function homepage() {
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
-                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 18,2023</h3>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 20,2023</h3>
                 </div>
               </div>
               <div className='flex xl:hidden gap-2 md:gap-4'>
@@ -442,7 +442,7 @@ function homepage() {
                       to the general public and teams begin to get ready to register
                     </p>
                   </div>
-                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 18,2023</h3>
+                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 20,2023</h3>
                 </div>
               </div>
               <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
@@ -459,7 +459,7 @@ function homepage() {
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
-                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 18,2023</h3>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 20,2023</h3>
                 </div>
               </div>
               <div className='flex xl:hidden gap-2 md:gap-4'>
@@ -477,7 +477,7 @@ function homepage() {
                       getlinked tech hackathon 1.0 2023 by proceeding to register
                     </p>
                   </div>
-                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 18,2023</h3>
+                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 20,2023</h3>
                 </div>
               </div>
               <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
@@ -494,7 +494,7 @@ function homepage() {
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
-                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 18,2023</h3>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 22,2023</h3>
                 </div>
               </div>
               <div className='flex xl:hidden gap-2 md:gap-4'>
@@ -512,12 +512,12 @@ function homepage() {
                       to the general public and teams begin to get ready to register
                     </p>
                   </div>
-                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 18,2023</h3>
+                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 22,2023</h3>
                 </div>
               </div>
               <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
                 <div className=' py-4 text-end'>
-                  <h3 className=' text-pink-600 font-bold text-[22px] '>Announcement of the accepted teams and ideas</h3>
+                  <h3 className=' text-pink-600 font-bold text-[22px] '>Announcement of the accepted teams</h3>
                   <p>The getlinked tech hackathon 1.0 is formally annouced
                     <br className='hidden lg:block' />
                     to the general public and teams begin to get ready to register
@@ -529,7 +529,7 @@ function homepage() {
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
-                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 18,2023</h3>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 23,2023</h3>
                 </div>
               </div>
               <div className='flex xl:hidden gap-2 md:gap-4'>
@@ -547,7 +547,7 @@ function homepage() {
                       to the general public and teams begin to get ready to register
                     </p>
                   </div>
-                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 18,2023</h3>
+                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 23,2023</h3>
                 </div>
               </div>
               <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
@@ -564,7 +564,7 @@ function homepage() {
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
-                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 18,2023</h3>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 24,2023</h3>
                 </div>
               </div>
               <div className='flex xl:hidden gap-2 md:gap-4'>
@@ -582,7 +582,7 @@ function homepage() {
                       to the general public and teams begin to get ready to register
                     </p>
                   </div>
-                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 18,2023</h3>
+                  <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 24,2023</h3>
                 </div>
               </div>
             </div>
