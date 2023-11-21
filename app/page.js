@@ -374,9 +374,9 @@ function homepage() {
             </p>
           </div>
           <div className='py-2 lg:py-10 w-full mx-auto my-4 lg:my-6'>
-            <div className=' space-y-4 px-6 md:px-10 lgpx-4 '>
+            <div className=' space-y-4 px-6 md:px-10 lg:px-4 '>
               <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
-                <div className=' py-4 text-end'>
+                <div className=' py-4 text-end flex-1'>
                   <h3 className=' text-pink-600 font-bold text-[22px] '>Hackathon Official Announcement</h3>
                   <p>The getlinked tech hackathon 1.0 is formally annouced
                     <br className='hidden lg:block' />
@@ -410,8 +410,8 @@ function homepage() {
                   <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 18,2023</h3>
                 </div>
               </div>
-              <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
-                <div className=' py-4 text-end'>
+              <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row-reverse'>
+                <div className=' py-4 text-start flex-1 '>
                   <h3 className=' text-pink-600 font-bold text-[22px] '>Hackathon Announcement</h3>
                   <p>The getlinked tech hackathon 1.0 is formally annouced
                     <br className='hidden lg:block' />
@@ -424,7 +424,7 @@ function homepage() {
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
-                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 20,2023</h3>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-end '>November 20,2023</h3>
                 </div>
               </div>
               <div className='flex xl:hidden gap-2 md:gap-4'>
@@ -446,7 +446,7 @@ function homepage() {
                 </div>
               </div>
               <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
-                <div className=' py-4 text-end'>
+                <div className=' py-4 text-end flex-1'>
                   <h3 className=' text-pink-600 font-bold text-[22px] '>Teams Registration begins</h3>
                   <p>Interested teams can now show their interest in the
                     <br className='hidden lg:block' />
@@ -480,8 +480,8 @@ function homepage() {
                   <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 20,2023</h3>
                 </div>
               </div>
-              <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
-                <div className=' py-4 text-end'>
+              <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row-reverse'>
+                <div className=' py-4 text-start flex-1'>
                   <h3 className=' text-pink-600 font-bold text-[22px] '>Teams Registration ends</h3>
                   <p>The getlinked tech hackathon 1.0 is formally annouced
                     <br className='hidden lg:block' />
@@ -494,7 +494,7 @@ function homepage() {
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
-                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 22,2023</h3>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-end '>November 22,2023</h3>
                 </div>
               </div>
               <div className='flex xl:hidden gap-2 md:gap-4'>
@@ -516,7 +516,7 @@ function homepage() {
                 </div>
               </div>
               <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
-                <div className=' py-4 text-end'>
+                <div className=' py-4 text-end flex-1'>
                   <h3 className=' text-pink-600 font-bold text-[22px] '>Announcement of the accepted teams</h3>
                   <p>The getlinked tech hackathon 1.0 is formally annouced
                     <br className='hidden lg:block' />
@@ -550,8 +550,8 @@ function homepage() {
                   <h3 className="text-pink-500 font-bold text-[17px] lg:text-[22px] ">november 23,2023</h3>
                 </div>
               </div>
-              <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row'>
-                <div className=' py-4 text-end'>
+              <div className=' xl:flex hidden lg:gap-6 xl:gap-20 items-end flex-row-reverse'>
+                <div className=' py-4 text-start flex-1'>
                   <h3 className=' text-pink-600 font-bold text-[22px] '>Demo day</h3>
                   <p>The getlinked tech hackathon 1.0 is formally annouced
                     <br className='hidden lg:block' />
@@ -564,7 +564,7 @@ function homepage() {
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
-                  <h3 className='text-pink-500 font-bold text-[22px] text-center '>November 24,2023</h3>
+                  <h3 className='text-pink-500 font-bold text-[22px] text-end '>November 24,2023</h3>
                 </div>
               </div>
               <div className='flex xl:hidden gap-2 md:gap-4'>
