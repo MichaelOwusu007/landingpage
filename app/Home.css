@@ -4,10 +4,7 @@
     margin: 20px auto;
 }
 
-.Faq{
-    transform: none;
-    transform-origin: 50% 50% 0px ;
-}
+
 
 .answer{
     opacity: 1;
@@ -21,20 +18,13 @@
     margin: 20px auto;
 }
 
-/*.Faq {
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out;
-    max-height: 100%;
-    /* Set an initial max-height for the dropdown 
-}
 
 .answer {
-    max-height:0;
-    transition: max-height 0.8s ease-in-out;
-}*/
+    transition: transform 0.8s ease-in-out;
+}
 
 
-@media  (max-width:400px) {
+@media  (max-width:450px) {
     .time-running span {
         font-size: 22px;
     }

@@ -102,7 +102,7 @@ function homepage() {
           <p className=' text-[22px] font-semibold top-[400px] mt-[px] absolute text-center xl:pl-16 xl:text-start xl:w-[600px] lg:text-[28x] '>Participate in getlinked tech Hackathon 2023 stand a chance to win  big prize</p>
           <div className=' absolute mt-[300px] xl:mt-[300px] flex items-center flex-col justify-center xl:items-start xl:pl-16'>
           <a href="/Register"><button className='bg-primary-gradient w-[200px] items-center rounded-md justify-center active:scale-95 h-[50px] flex'><div className='px-8 w-[98%] h-[95%] text-xl flex items-center justify-center transition-all hover:bg-[#150e28] rounded-md mx-auto'>Register</div></button></a>
-          <div className=' pt-10 flex gap-6 justify-center items-center  text-[40px] lg:text-[60px] text-center time-running '>
+          <div className=' pt-10 flex gap-6 justify-center items-center  text-[40px] lg:text-[60px] text-center time-running space-grotesk '>
             <span>
               <span>{time.hours}</span>
               <span className='text-[25px] '>hrs</span>
@@ -268,7 +268,7 @@ function homepage() {
                     </span>
                   </p>
                   {isAnswerVisible1 && (
-                    <p className='overflow-hidden text-[16px]  md:text-[16px] text-gray-300 pb-2 answer text-start'>
+                    <p className='answer overflow-hidden text-[16px]  md:text-[16px] text-gray-300 pb-2 answer text-start'>
                       Yes, You can work on a project that you started before the hackathon. However, please make sure that
                       your project rules comply with the hackathon rules and guidelines.
                     </p>
@@ -289,7 +289,7 @@ function homepage() {
                     </span>
                   </p>
                   {isAnswerVisible2 && (
-                    <p className='overflow-hidden  text-[16px] text-start md:text-[16px] text-gray-300 pb-2 answer'>
+                    <p className='answer overflow-hidden  text-[16px] text-start md:text-[16px] text-gray-300 pb-2 answer'>
                      If you need help during the hackathon, you can reach out to mentors and organizers who will be available to assist you with any questions or challenges you encounter.
                     </p>
                   )}
@@ -309,7 +309,7 @@ function homepage() {
                     </span>
                   </p>
                   {isAnswerVisible3 && (
-                    <p className='overflow-hidden text-[16px] text-start md:text-[16px] text-gray-300 pb-2 answer'>
+                    <p className=' answer overflow-hidden text-[16px] text-start md:text-[16px] text-gray-300 pb-2 answer'>
                     Not having an idea for a project is perfectly fine. You can join a team and collaborate with others on their projects, or brainstorm and come up with ideas during the hackathon.
                     </p>
                   )}
@@ -329,7 +329,7 @@ function homepage() {
                     </span>
                   </p>
                   {isAnswerVisible4 && (
-                    <p className='overflow-hidden text-[16px] text-start md:text-[16px] text-gray-300 pb-2 answer'>
+                    <p className=' answer overflow-hidden text-[16px] text-start md:text-[16px] text-gray-300 pb-2 answer'>
                      You can join a team or participate individually, depending on the hackathon's rules. Some hackathons allow participants to form teams on the spot, while others may require you to come with a pre-formed team.
                     </p>
                   )}
@@ -349,7 +349,7 @@ function homepage() {
                     </span>
                   </p>
                   {isAnswerVisible5 && (
-                    <p className='overflow-hidden text-[16px] text-start md:text-[16px]  text-gray-300 pb-2 answer'>
+                    <p className='answer overflow-hidden text-[16px] text-start md:text-[16px]  text-gray-300 pb-2 answer'>
                       After the hackathon ends, you can showcase your project to judges and other participants. There are often awards and prizes for winning projects, and you can also continue to work on your project or explore opportunities to further develop it.
                     </p>
                   )}
