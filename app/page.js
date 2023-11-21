@@ -420,7 +420,7 @@ function homepage() {
                 </div>
                 <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
                   <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
-                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>1</span>
+                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>2</span>
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
@@ -455,7 +455,7 @@ function homepage() {
                 </div>
                 <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center '>
                   <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
-                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>1</span>
+                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>3</span>
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
@@ -490,7 +490,7 @@ function homepage() {
                 </div>
                 <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
                   <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
-                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>1</span>
+                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>4</span>
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
@@ -525,7 +525,7 @@ function homepage() {
                 </div>
                 <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
                   <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
-                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>1</span>
+                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>5</span>
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
@@ -560,7 +560,7 @@ function homepage() {
                 </div>
                 <div className=' w-[100px] h-max gap-4 flex flex-col items-center justify-center'>
                   <div className=' min-h-[100px] bg-pink-500 w-[3px] '></div>
-                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>1</span>
+                  <div className=' w-[60px] bg-pink-500 text-black rounded-full h-[60px] justify-center flex items-center '><span className='font-bold text-white  text-[24px]'>6</span>
                   </div>
                 </div>
                 <div className=' py-4 flex-1  '>
