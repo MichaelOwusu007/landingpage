@@ -11,6 +11,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineAddIcCall } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function homepage() {
@@ -21,6 +23,13 @@ function homepage() {
   const [isAnswerVisible4, setIsAnswerVisible4] = useState(false);
   const [isAnswerVisible5, setIsAnswerVisible5] = useState(false);
   const [time, setTime] = useState(getCurrentTime());
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    })
+  }, [])
   
 
     useEffect(() => {
