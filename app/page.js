@@ -94,7 +94,7 @@ function homepage() {
         src="/img/purple-lens-flare-png-1.png"
          />
           </div>
-          <h1 data-aos="zoom-in" className='absolute main-text top-[180px] font-extrabold text-[48px] xl:text-[65px]  z-0 xl:pl-14  '>
+          <h1  className='absolute main-text top-[180px] font-extrabold text-[48px] xl:text-[65px]  z-0 xl:pl-14  '>
             
             <span className='relative flex items-center  '>getlinkedTech
              <img className="w-[18px] h-[26px] top-0 right-[70px] object-cover absolute" alt="Creative" src="/img/creative-1.png" />
@@ -108,10 +108,10 @@ function homepage() {
               </span>
             </span>
           </h1>
-          <p data-aos="zoom-in" className=' text-[22px] font-semibold top-[400px] mt-[px] absolute text-center xl:pl-16 xl:text-start xl:w-[600px] lg:text-[28x] '>Participate in getlinked tech Hackathon 2023 stand a chance to win  big prize</p>
+          <p  className=' text-[22px] font-semibold top-[400px] mt-[px] absolute text-center xl:pl-16 xl:text-start xl:w-[600px] lg:text-[28x] '>Participate in getlinked tech Hackathon 2023 stand a chance to win  big prize</p>
           <div className=' absolute mt-[300px] xl:mt-[300px] flex items-center flex-col justify-center xl:items-start xl:pl-16'>
-          <a href="/Register"><button className='bg-primary-gradient w-[200px] items-center rounded-md justify-center active:scale-95 h-[50px] flex'><div className='px-8 w-[98%] h-[95%] text-xl flex items-center justify-center transition-all hover:bg-[#150e28] rounded-md mx-auto'>Register</div></button></a>
-          <div className=' pt-10 flex gap-6 justify-center items-center  text-[40px] lg:text-[60px] text-center time-running space-grotesk '>
+            <a href="/Register"><button className='bg-primary-gradient w-[200px] items-center rounded-md justify-center active:scale-95 h-[50px] flex'><div className='px-8 w-[98%] h-[95%] text-xl flex items-center justify-center transition-all hover:bg-[#150e28] rounded-md mx-auto'>Register</div></button></a>
+            <div  className=' pt-10 flex gap-6 justify-center items-center  text-[40px] lg:text-[60px] text-center time-running space-grotesk '>
             <span>
               <span>{time.hours}</span>
               <span className='text-[25px] '>hrs</span>
