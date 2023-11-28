@@ -5,22 +5,20 @@
 }
 
 
-
-.answer{
+ .answer {
     opacity: 1;
-    height: auto;
-    
+    height:auto;
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease;
 }
+
 
 .footer-container{
     max-width: 1380px;
     padding-inline: 20px;
     margin: 20px auto;
-}
-
-
-.answer {
-    transition: transform 0.8s ease-in-out;
 }
 
 

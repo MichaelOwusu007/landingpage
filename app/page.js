@@ -268,7 +268,7 @@ function homepage() {
                     </span>
                   </p>
                   {isAnswerVisible1 && (
-                    <p className='answer overflow-hidden text-[16px]  md:text-[16px] text-gray-300 pb-2 answer text-start'>
+                    <p className=' answer overflow-hidden text-[16px]  md:text-[16px] text-gray-300 pb-2  text-start'>
                       Yes, You can work on a project that you started before the hackathon. However, please make sure that
                       your project rules comply with the hackathon rules and guidelines.
                     </p>
@@ -289,7 +289,7 @@ function homepage() {
                     </span>
                   </p>
                   {isAnswerVisible2 && (
-                    <p className='answer overflow-hidden  text-[16px] text-start md:text-[16px] text-gray-300 pb-2 answer'>
+                    <p className='answer overflow-hidden  text-[16px] text-start md:text-[16px] text-gray-300 pb-2 '>
                      If you need help during the hackathon, you can reach out to mentors and organizers who will be available to assist you with any questions or challenges you encounter.
                     </p>
                   )}
@@ -309,7 +309,7 @@ function homepage() {
                     </span>
                   </p>
                   {isAnswerVisible3 && (
-                    <p className=' answer overflow-hidden text-[16px] text-start md:text-[16px] text-gray-300 pb-2 answer'>
+                    <p className=' answer overflow-hidden text-[16px] text-start md:text-[16px] text-gray-300 pb-2 '>
                     Not having an idea for a project is perfectly fine. You can join a team and collaborate with others on their projects, or brainstorm and come up with ideas during the hackathon.
                     </p>
                   )}
@@ -329,7 +329,7 @@ function homepage() {
                     </span>
                   </p>
                   {isAnswerVisible4 && (
-                    <p className=' answer overflow-hidden text-[16px] text-start md:text-[16px] text-gray-300 pb-2 answer'>
+                    <p className=' answer overflow-hidden text-[16px] text-start md:text-[16px] text-gray-300 pb-2 '>
                      You can join a team or participate individually, depending on the hackathon's rules. Some hackathons allow participants to form teams on the spot, while others may require you to come with a pre-formed team.
                     </p>
                   )}
@@ -349,7 +349,7 @@ function homepage() {
                     </span>
                   </p>
                   {isAnswerVisible5 && (
-                    <p className='answer overflow-hidden text-[16px] text-start md:text-[16px]  text-gray-300 pb-2 answer'>
+                    <p className=' overflow-hidden text-[16px] text-start md:text-[16px]  text-gray-300 pb-2 answer'>
                       After the hackathon ends, you can showcase your project to judges and other participants. There are often awards and prizes for winning projects, and you can also continue to work on your project or explore opportunities to further develop it.
                     </p>
                   )}
