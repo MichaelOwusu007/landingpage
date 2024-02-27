@@ -88,7 +88,7 @@ function homepage() {
             <img src='/img/vector-4.svg' className='absolute right-[10px]  '/>
           </span>
           <div>
-          <img
+        <img
         className="relative w-[1086px] h-[836px] -top-24 left-[-90px] bg-blend-hard-light z-[-1]"
         alt="Purple lens flare"
         src="/img/purple-lens-flare-png-1.png"
